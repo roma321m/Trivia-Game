@@ -60,8 +60,8 @@
 				3F4ACBCE282CFA7A00E9F154 /* SceneDelegate.swift */,
 				3F4ACBD0282CFA7A00E9F154 /* ViewController.swift */,
 				3F4ACBD2282CFA7A00E9F154 /* Main.storyboard */,
-				3F4ACBD5282CFA7C00E9F154 /* Assets.xcassets */,
 				3F4ACBD7282CFA7C00E9F154 /* LaunchScreen.storyboard */,
+				3F4ACBD5282CFA7C00E9F154 /* Assets.xcassets */,
 				3F4ACBDA282CFA7C00E9F154 /* Info.plist */,
 			);
 			path = "Trivia Game";
@@ -305,7 +305,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +332,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
