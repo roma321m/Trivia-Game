@@ -15,6 +15,7 @@
 		3F4ACBD9282CFA7C00E9F154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4ACBD7282CFA7C00E9F154 /* LaunchScreen.storyboard */; };
 		3FC6C6AB282FA3F8002C0740 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6C6AA282FA3F8002C0740 /* DataManager.swift */; };
 		3FC6C6AD282FA5B3002C0740 /* JsonClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6C6AC282FA5B3002C0740 /* JsonClasses.swift */; };
+		C04DE98A2839473700CCAE9C /* myExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DE9892839473700CCAE9C /* myExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3F4ACBDA282CFA7C00E9F154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FC6C6AA282FA3F8002C0740 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		3FC6C6AC282FA5B3002C0740 /* JsonClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonClasses.swift; sourceTree = "<group>"; };
+		C04DE9892839473700CCAE9C /* myExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				3F4ACBCC282CFA7A00E9F154 /* AppDelegate.swift */,
 				3F4ACBCE282CFA7A00E9F154 /* SceneDelegate.swift */,
+				C04DE9892839473700CCAE9C /* myExtension.swift */,
 				3F4ACBD0282CFA7A00E9F154 /* ViewController.swift */,
 				3FC6C6AA282FA3F8002C0740 /* DataManager.swift */,
 				3FC6C6AC282FA5B3002C0740 /* JsonClasses.swift */,
@@ -147,6 +150,7 @@
 				3FC6C6AD282FA5B3002C0740 /* JsonClasses.swift in Sources */,
 				3F4ACBD1282CFA7A00E9F154 /* ViewController.swift in Sources */,
 				3FC6C6AB282FA3F8002C0740 /* DataManager.swift in Sources */,
+				C04DE98A2839473700CCAE9C /* myExtension.swift in Sources */,
 				3F4ACBCD282CFA7A00E9F154 /* AppDelegate.swift in Sources */,
 				3F4ACBCF282CFA7A00E9F154 /* SceneDelegate.swift in Sources */,
 			);

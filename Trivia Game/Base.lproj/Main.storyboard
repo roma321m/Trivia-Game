@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -115,6 +115,9 @@
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="baseBackgroundColor" red="0.062730972509999997" green="0.21273981980000001" blue="0.21273981980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="a1Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ghJ-M1-xtX"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReS-Oo-lru">
                                                         <rect key="frame" x="198" y="109.00000000000001" width="176" height="54.666666666666671"/>
@@ -131,6 +134,9 @@
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="baseBackgroundColor" red="0.062730972509999997" green="0.21273981980000001" blue="0.21273981980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="a2Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8dU-Dl-7d7"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -156,6 +162,9 @@
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="baseBackgroundColor" red="0.062730972509999997" green="0.21273981980000001" blue="0.21273981980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="a3Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CAw-3X-daC"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pht-gK-hyp">
                                                         <rect key="frame" x="197" y="0.0" width="177" height="54.666666666666664"/>
@@ -172,6 +181,9 @@
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="baseBackgroundColor" red="0.062730972509999997" green="0.21273981980000001" blue="0.21273981980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="a4Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IoO-IF-khJ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -254,6 +266,18 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="main_BTN_a1" destination="cAc-i2-QEP" id="Wa6-O5-6fA"/>
+                        <outlet property="main_BTN_a2" destination="ReS-Oo-lru" id="MFN-Gi-SRd"/>
+                        <outlet property="main_BTN_a3" destination="N8Y-pX-c7h" id="yOS-pM-Tse"/>
+                        <outlet property="main_BTN_a4" destination="Pht-gK-hyp" id="qJI-8X-9mg"/>
+                        <outlet property="main_IMG_heart1" destination="ud0-Ca-EHr" id="Vb5-YP-US2"/>
+                        <outlet property="main_IMG_heart2" destination="POr-T3-Td6" id="Snl-B8-BvL"/>
+                        <outlet property="main_IMG_heart3" destination="ibN-Xi-Kzn" id="hfh-f0-EBB"/>
+                        <outlet property="main_IMG_q" destination="QYc-Iy-Kbw" id="tSY-O9-ocV"/>
+                        <outlet property="main_LBL_progress" destination="KpN-zp-4a0" id="2js-ob-zgY"/>
+                        <outlet property="main_PB_progress" destination="dNR-7i-AD4" id="zdk-km-7Lw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
