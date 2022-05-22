@@ -14,8 +14,6 @@ protocol qaManager {
 }
 
 protocol scoreManager {
-    func getHearts() -> Int
-    func getScore() -> Int
     func addScore()
     func removeHeart() -> Bool
 }
@@ -130,21 +128,14 @@ extension DataManager : qaManager {
 }
 
 extension DataManager : scoreManager {
-    func getHearts() -> Int {
-        return hearts
-    }
-    
-    func getScore() -> Int {
-        return score
-    }
     
     func addScore() {
-        score += 1
+        score = score + 1
     }
     
     func removeHeart() -> Bool {
-        hearts -= 1
-        if (hearts < 1) {
+        hearts = hearts - 1
+        if (hearts < 0) {
             return true
         }
         return false
