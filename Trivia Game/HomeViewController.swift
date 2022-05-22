@@ -10,7 +10,6 @@ class HomeViewController: UIViewController {
         home_LBL_score.text = "Last Score: \(score)"
     }
     
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         segue.destination as? GameViewController
     }

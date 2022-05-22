@@ -79,19 +79,10 @@ extension GameViewController: CallBack_Data {
                         finishGame(sender: sender)
                     }
                     else{
-                        let h = dataManager.hearts
-                        if (h < 3){
-                            main_IMG_heart3.isHidden = true
-                        }
-                        if (h < 2){
-                            main_IMG_heart2.isHidden = true
-                        }
-                        if (h < 1){
-                            main_IMG_heart1.isHidden = true
-                        }
+                        checkHearts()
                     }
                 }
-                if (dataManager.qCount == 14){
+                if (dataManager.qCount == 15){
                     finishGame(sender: sender)
                 }else{
                     setNextQ()
@@ -106,25 +97,16 @@ extension GameViewController: CallBack_Data {
                         finishGame(sender: sender)
                     }
                     else{
-                        let h = dataManager.hearts
-                        if (h < 3){
-                            main_IMG_heart3.isHidden = true
-                        }
-                        if (h < 2){
-                            main_IMG_heart2.isHidden = true
-                        }
-                        if (h < 1){
-                            main_IMG_heart1.isHidden = true
-                        }
+                        checkHearts()
                     }
                 }
-                if (dataManager.qCount == 14){
+                if (dataManager.qCount == 15){
                     finishGame(sender: sender)
                 }else{
                     setNextQ()
                 }
             case 3:
-                print("actual: \(main_BTN_a3.titleLabel?.text)")
+                print("actual: \(String(describing: main_BTN_a3.titleLabel?.text))")
                 if (a1 == main_BTN_a3.titleLabel?.text){
                     dataManager.addScore()
                 }else{
@@ -133,25 +115,16 @@ extension GameViewController: CallBack_Data {
                         finishGame(sender: sender)
                     }
                     else{
-                        let h = dataManager.hearts
-                        if (h < 3){
-                            main_IMG_heart3.isHidden = true
-                        }
-                        if (h < 2){
-                            main_IMG_heart2.isHidden = true
-                        }
-                        if (h < 1){
-                            main_IMG_heart1.isHidden = true
-                        }
+                        checkHearts()
                     }
                 }
-                if (dataManager.qCount == 14){
+                if (dataManager.qCount == 15){
                     finishGame(sender: sender)
                 }else{
                     setNextQ()
                 }
             case 4:
-                print("actual: \(main_BTN_a4.titleLabel?.text)")
+                print("actual: \(String(describing: main_BTN_a4.titleLabel?.text))")
                 if (a1 == main_BTN_a4.titleLabel?.text){
                     dataManager.addScore()
                 }else{
@@ -160,19 +133,10 @@ extension GameViewController: CallBack_Data {
                         finishGame(sender: sender)
                     }
                     else{
-                        let h = dataManager.hearts
-                        if (h < 3){
-                            main_IMG_heart3.isHidden = true
-                        }
-                        if (h < 2){
-                            main_IMG_heart2.isHidden = true
-                        }
-                        if (h < 1){
-                            main_IMG_heart1.isHidden = true
-                        }
+                        checkHearts()
                     }
                 }
-                if (dataManager.qCount == 14){
+                if (dataManager.qCount == 15){
                     finishGame(sender: sender)
                 }else{
                     setNextQ()
@@ -183,6 +147,19 @@ extension GameViewController: CallBack_Data {
             print(dataManager.qCount)
             print(dataManager.score)
             print(dataManager.hearts)
+        }
+    }
+    
+    func checkHearts(){
+        let h = dataManager.hearts
+        if (h < 3){
+            main_IMG_heart3.isHidden = true
+        }
+        if (h < 2){
+            main_IMG_heart2.isHidden = true
+        }
+        if (h < 1){
+            main_IMG_heart1.isHidden = true
         }
     }
     
