@@ -17,6 +17,7 @@
 		3FC6C6AD282FA5B3002C0740 /* JsonClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6C6AC282FA5B3002C0740 /* JsonClasses.swift */; };
 		C04DE98A2839473700CCAE9C /* myExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DE9892839473700CCAE9C /* myExtension.swift */; };
 		C0AF80AD283A34AD0080F721 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AF80AC283A34AD0080F721 /* HomeViewController.swift */; };
+		C0D95410286DF12700749641 /* temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9540F286DF12700749641 /* temp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3FC6C6AC282FA5B3002C0740 /* JsonClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonClasses.swift; sourceTree = "<group>"; };
 		C04DE9892839473700CCAE9C /* myExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myExtension.swift; sourceTree = "<group>"; };
 		C0AF80AC283A34AD0080F721 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C0D9540F286DF12700749641 /* temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		3F4ACBC0282CFA7A00E9F154 = {
 			isa = PBXGroup;
 			children = (
+				C0D9540E286DF0FE00749641 /* Readme pic */,
 				3F4ACBCB282CFA7A00E9F154 /* Trivia Game */,
 				3F4ACBCA282CFA7A00E9F154 /* Products */,
 			);
@@ -77,6 +80,14 @@
 				3F4ACBDA282CFA7C00E9F154 /* Info.plist */,
 			);
 			path = "Trivia Game";
+			sourceTree = "<group>";
+		};
+		C0D9540E286DF0FE00749641 /* Readme pic */ = {
+			isa = PBXGroup;
+			children = (
+				C0D9540F286DF12700749641 /* temp.swift */,
+			);
+			path = "Readme pic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				3FC6C6AD282FA5B3002C0740 /* JsonClasses.swift in Sources */,
 				3F4ACBD1282CFA7A00E9F154 /* GameViewController.swift in Sources */,
 				3FC6C6AB282FA3F8002C0740 /* DataManager.swift in Sources */,
+				C0D95410286DF12700749641 /* temp.swift in Sources */,
 				C04DE98A2839473700CCAE9C /* myExtension.swift in Sources */,
 				3F4ACBCD282CFA7A00E9F154 /* AppDelegate.swift in Sources */,
 				C0AF80AD283A34AD0080F721 /* HomeViewController.swift in Sources */,
